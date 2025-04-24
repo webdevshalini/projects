@@ -1,0 +1,377 @@
+@media(min-width:576px){
+/* SLIDER */
+    .slider .carousel-inner .carousel-item:first-child .carousel-content, .slider.carousel-inner .carousel-item:nth-child(2) .carousel-content, .slider .carousel-inner .carousel-item:last-child .carousel-content{
+        width: 100%!important;
+    }
+    .carousel-content{
+        padding-left: 100px!important;
+    }
+    .slider .carousel-inner .carousel-item:first-child,.slider .carousel-inner .carousel-item:nth-child(2), .slider .carousel-inner .carousel-item:last-child{
+        height: 400px!important;
+        background-size: cover!important;
+    }
+    .heading{
+        font-size: 60px!important;
+    }
+   /* ADVENTURE  */
+    .adventure-title .display-5{
+        text-align: center;
+        width: 100%;
+        font-size: 34px!important;
+    }
+    /* ADVERTISE */
+    .advertising{
+        background: url(../images/advertise.jpg)rgba(0, 0, 0, 0.4);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%!important;
+    }
+    .advertising-inner{
+        height: 700px;
+    }
+    .play i{
+        border-radius: 50%;
+        left:7%!important;
+        top:54%!important;
+        color: #f7921e;
+        padding: 25px 30px;
+    }    
+    /* CHOOSEUS */
+    .chooseus-items{
+        margin: 0px!important;
+    }
+/* ABOUTUS */
+    .aboutus-content .display-5{
+        max-width: 550px;
+        font-size: 43px;
+    }
+   /* CAMPING */
+    .camping{
+        background-image: url(../images/background-customer.png);
+        background-color: #63ac45;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 250px;
+        width: 100%!important;
+        background-size: cover;
+    }
+    .camping-inner{
+        display: flex;
+        justify-content: center!important;
+        height: 250px;
+        flex-wrap: wrap;
+    }
+    .camping-content h2{
+        font-size: 37px!important;
+    }
+    .content{
+        position: absolute;
+        top: 57%!important;
+        right:12px!important;
+        transform: translateY(-50%);
+        font-size: 120px!important;
+        line-height: 1.5;
+        font-weight: 600;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ffffff33;
+        -webkit-text-fill-color: transparent;
+        z-index: 9;
+    }
+/* NEWSLETTER */
+    .newsletter-form{
+        width:100%!important;
+    }
+   /* FOOTER */
+    .copyright{
+            display: flex;
+            justify-content: center!important;
+            flex-wrap: wrap;
+    }
+
+}
+@media(min-width:768px){
+    /* SLIDER */
+    .slider .carousel-inner .carousel-item:first-child, .slider .carousel-inner .carousel-item:nth-child(2), .slider .carousel-inner .carousel-item:last-child{
+        width: 100%!important;
+        background-size: cover!important;
+        height: 700px!important;
+    }
+    .slider .carousel-inner .carousel-item:first-child .carousel-content,.slider.carousel-inner .carousel-item:nth-child(2) .carousel-content  .slider .carousel-inner .carousel-item:last-child .carousel-content{
+        width: 100%!important;
+        padding: 0 80px!important;
+    }
+    .heading{
+        font-size: 90px!important;
+    }
+    /* ABOUTUS */
+    .aboutus-content{
+        width: 100%;
+    }
+    .aboutus-images img, .aboutus-content p{
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .aboutus-content .display-5{
+        max-width: 550px;
+        font-size: 48px;
+    }
+    .aboutus-content p{
+        line-height: 30px;
+        margin-right: 20px;
+        letter-spacing: 1px;
+    }
+    
+   /* CAMPING */
+    .camping{
+        background-image: url(../images/background-customer.png);
+        background-color: #63ac45;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 250px;
+        width: 100%!important;
+        background-size: cover;
+    }
+    .camping-inner{
+        display: flex;
+        justify-content: center!important;
+        height: 250px;
+        flex-wrap: wrap;
+    }
+    .camping-content h2{
+        font-size: 48px!important;
+    }
+    .content{
+        position: absolute;
+        top: 50%!important;
+        right:12px!important;
+        transform: translateY(-50%);
+        font-size: 120px!important;
+        line-height: 1.5;
+        font-weight: 600;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ffffff33;
+        -webkit-text-fill-color: transparent;
+        z-index: 9;
+    }
+
+}
+@media(min-width:992px){
+    /* SLIDER */
+    .slider .carousel-inner .carousel-item:first-child .carousel-content, .slider.carousel-inner .carousel-item:nth-child(2) .carousel-content, .slider .carousel-inner .carousel-item:last-child .carousel-content{
+        width: 90%!important;
+        /* padding: 0 150px!important; */
+    }
+    .carousel-content{
+        padding-left: 150px!important;
+    }
+    
+    .heading{
+        font-size: 120px!important;
+    }
+    
+   /* ADVENTURE  */
+    .adventure-title .display-5{
+        text-align: center;
+        width: 100%;
+        font-size: 48px!important;
+    }
+/* AVAILIBILITY */
+    .availibility-title .display-5{
+        text-align: left;
+        font-size: 32px;
+    }
+    /* ABOUTUS */
+    .aboutus-content .display-5{
+        max-width: 550px!important;
+
+    }
+    .aboutus-content p{
+        line-height: 30px;
+        margin-right: 20px;
+        letter-spacing: 1px;
+    }
+/* CHOOSEUS */
+    .chooseus-title .display-5{
+        font-size: 37px!important;
+    }
+    /* CAMPING */
+    .camping{
+        background-image: url(../images/background-customer.png);
+        background-color: #63ac45;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 250px;
+        width: 100%!important;
+        background-size: cover;
+    }
+    .camping-inner{
+        display: flex;
+        justify-content:space-between!important;
+        align-items: center;
+        height: 250px;
+        /* flex-wrap: wrap; */
+    }
+    .camping-button{
+        display: flex!important;
+        justify-content: flex-end!important;
+    }
+    .camping-content .display-5{
+        font-size: 34px!important;
+    }
+    .content{
+        position: absolute;
+        top: 48%!important;
+        right:-10px!important;
+        transform: translateY(-50%);
+        font-size: 190px!important;
+        line-height: 1.5;
+        font-weight: 600;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ffffff33;
+        -webkit-text-fill-color: transparent;
+        z-index: 9;
+    }
+    
+/* NEWSLETTER */
+    .newsletter-form{
+        width:100%!important;
+    }
+    .newsletter-content h2{
+        font-size: 35px!important;
+    }
+    /* FOOTER */
+    .copyright{
+        display: flex;
+        justify-content: space-between!important;
+        flex-wrap: wrap;
+    }
+}
+@media(min-width:1200px){
+    /* SLIDER */
+     .slider .carousel-inner .carousel-item:first-child .carousel-content,.slider.carousel-inner .carousel-item:nth-child(2) .carousel-content, .slider .carousel-inner .carousel-item:last-child .carousel-content{
+        width: 70%!important;
+        padding: 0 100px!important;
+    }
+    .carousel-content{
+        padding-left: 150px!important;
+    }
+    /* AVAILIBILITY */
+    .availibility-title .display-5{
+        text-align: left;
+        font-size: 44px;
+    }
+/* ABOUTUS */
+    .aboutus-content{
+        margin:0 80px;
+    }
+    .aboutus-images img{
+       width:90%!important;
+        margin: 0 80px!important;
+    }
+    .aboutus-content p{
+        line-height: 30px;
+        margin-right: 20px;
+        letter-spacing: 1px;
+        max-width: 550px!important;
+    }
+   /* CHOOSEUS */
+    .chooseus-title .display-5{
+        font-size: 45px!important;
+    }
+/* ADVERTISING */
+    .advertising{
+        background: url(../images/advertise.jpg)rgba(0, 0, 0, 0.4);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%!important;
+    }
+    .advertising-inner{
+        height: 700px;
+    }
+    .play i{
+        border-radius: 50%;
+        left:89%!important;
+        top:44%!important;
+        color: #f7921e;
+        padding: 25px 30px;
+    }
+    /* CAMPING */
+    .camping{
+        background-image: url(../images/background-customer.png);
+        background-color: #63ac45;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 250px;
+        width: 100%!important;
+        background-size: cover;
+    }
+    .camping-inner{
+        display: flex;
+        justify-content:space-between!important;
+        align-items: center;
+        height: 250px;
+        /* flex-wrap: wrap; */
+    }
+    .camping-button{
+        display: flex!important;
+        justify-content: flex-end!important;
+    }
+    .camping-content .display-5{
+        font-size: 40px!important;
+    }
+    .content{
+        position: absolute;
+        top: 47%!important;
+        right:10px!important;
+        transform: translateY(-50%);
+        font-size: 190px!important;
+        line-height: 1.5;
+        font-weight: 600;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ffffff33;
+        -webkit-text-fill-color: transparent;
+        z-index: 9;
+    }
+    
+/* NEWSLETTER */
+    .newsletter-content h2{
+        font-size: 42px!important;
+    }
+    
+}
+@media(min-width:1400px){
+/* SLIDER */
+    .slider .carousel-inner .carousel-item:first-child .carousel-content,.slider.carousel-inner .carousel-item:nth-child(2) .carousel-content, .slider .carousel-inner .carousel-item:last-child .carousel-content{
+        width: 70%!important;
+        padding: 0 80px!important;
+    }
+    /* CHOOSEUS */
+    .chooseus-title .display-5{
+        font-size: 48px!important;
+    }
+    /* ADVERTISING */
+    .advertising{
+        background: url(../images/advertise.jpg)rgba(0, 0, 0, 0.4);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%!important;
+    }
+    .advertising-inner{
+        height: 700px;
+    }
+    .play i{
+        border-radius: 50%;
+        left:76%!important;
+        top:44%!important;
+        color: #f7921e;
+        padding: 25px 30px;
+    }
+    
+/* NEWSLETTER */
+    .newsletter-form{
+        width:80%!important;
+    }
+    .newsletter-content h2{
+        font-size: 48px!important;
+    }
+}
